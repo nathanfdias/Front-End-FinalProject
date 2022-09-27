@@ -2,22 +2,23 @@
     width: 140px;
     height: 40px;
     border-style: none;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--text-color-light);
     background-color: transparent;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--text-color-light);
     cursor: pointer;
     transition: 0.7s;
 }
 
 .form-button:hover{
     background-color: var(--primary-color);
-    color: var(--second-color);
+    color: var(--text-color-light);
+    border: none;
 }
 
 .form-button-light {
-    border: 2px solid var(--second-color);
+    border: 1px solid var(--text-color-light);
     color: var(--text-color-light);
 }
 

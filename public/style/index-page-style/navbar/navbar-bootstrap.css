@@ -1,0 +1,58 @@
+.logo-header {
+    width: 100px;
+}
+
+.navbar{
+    background-color: #202020;
+}
+
+
+.navbar-toggler{
+    border: 0 none;
+    outline: 0 ;
+    color: transparent;
+}
+
+.navbar-toggler-icon{
+    width:0px;
+    margin-right: 10px;
+}
+
+.nav-link, #nav-link-home{
+    color: white;
+}
+
+.nav-link:hover, #nav-link-home:hover {
+    color: #979797;
+    transform: translate(0px, -3px);
+}
+
+.nav-linkx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu-navbar{
+    color: white;
+}
+
+#search-navbar {
+    color: white;
+}
+
+.btn-outline-success{
+    border: 0 none;
+    outline: 0 ;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: red;
+}
+
+.form-control{
+    width: 180px;
+    height: 36px;
+    border-radius: 5px;
+}
