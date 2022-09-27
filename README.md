@@ -41,10 +41,10 @@ Apenas instalando os arquivos de projeto.
 
 ## ✒️ Autores
 
-[<sub>Nathan Dias</sub>](https://github.com/nathanfdias)
-[<sub>Lucas Cardoso</sub>](https://github.com/lucascardosoex)
-[<sub>José Ailton</sub>](https://github.com/zehlopes)
-[<sub>Andre Felipe</sub>](https://github.com/Andre-Toigo)
+[<sub>Nathan Dias</sub>](https://github.com/nathanfdias)<br>
+[<sub>Lucas Cardoso</sub>](https://github.com/lucascardosoex)<br>
+[<sub>José Ailton</sub>](https://github.com/zehlopes)<br>
+[<sub>Andre Felipe</sub>](https://github.com/Andre-Toigo)<br>
 [<sub>Matheus Aquino</sub>](https://github.com/AquinoMatheus16)
 
 ---
