@@ -23,6 +23,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 - CSS 3
 - HTML 5
 - JAVASCRIPT
+- CONSUMO API
 
 ---
 
@@ -40,7 +41,11 @@ Apenas instalando os arquivos de projeto.
 
 ## ✒️ Autores
 
-[<img src="https://avatars.githubusercontent.com/u/104539556?v=4" width=115><br><sub>Nathan Dias</sub>](https://github.com/nathanfdias)
+[<sub>Nathan Dias</sub>](https://github.com/nathanfdias)
+[<sub>Lucas Cardoso</sub>](https://github.com/lucascardosoex)
+[<sub>José Ailton</sub>](https://github.com/zehlopes)
+[<sub>Andre Felipe</sub>](https://github.com/Andre-Toigo)
+[<sub>Matheus Aquino</sub>](https://github.com/AquinoMatheus16)
 
 ---
 
