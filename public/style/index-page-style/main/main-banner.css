@@ -1,0 +1,32 @@
+main banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.main-banner-description{
+    font-size: 18px;
+    color: white;
+    margin-top: 4px;
+}
+
+#logo-disney-branco{
+    width: 62px;
+}
+
+@media (max-width: 768px){
+
+    .main-banner-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 458px){
+    .main-banner-description {
+        font-size: 8px;
+    }
+    #logo-disney-branco{
+        width: 40px;
+    }
+}
