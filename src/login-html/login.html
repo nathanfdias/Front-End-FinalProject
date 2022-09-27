@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8194adac84.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../public/style/login-page-style/reset-var-color/reset.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/reset-var-color/colors.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/semantic/main.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/login-container.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-container.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-title.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-social.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/social-icon.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-input-container.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-input.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/forms/form-button.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/overlay-container.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/overlay.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/mobile-text.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/semantic/header.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/reset-var-color/body.css" />
+    <link rel="stylesheet" href="../../public/style/login-page-style/open.css" />
+    <script src="../../scripts/login-page-scripts/login.js" defer></script>
+    <script src="../../scripts/login-page-scripts/slide.js" defer></script>
+
+    <title>Login - Nathan</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p>line</p>
+        <img
+          class="header-user-img"
+          src="../../public/imgs/login-page-imgs/logo-site-user.png"
+          alt="Logo User"
+        />
+        <p>line</p>
+      </nav>
+    </header>
+    <main>
+      <div class="login-container" id="login-container">
+        <div class="form-container">
+          <form class="form form-login">
+            <h2 class="form-title">Sign In</h2>
+            <div class="form-social">
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <p>Facebook</p>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <p>Linkedin</p>
+              </a>
+            </div>
+            <p class="form-text">use the account</p>
+            <div class="form-input-container">
+              <input id="email-user" type="email" class="form-input" placeholder="Email" />
+              <input
+                id="password-user"
+                type="password"
+                class="form-input"
+                placeholder="Password"
+              />
+            </div>
+            <a href="#" class="form-link"> Forgot password? </a>
+            <button id="login-verify" type="button" class="form-button" onclick="verification()">Login</button>
+            <p class="mobile-text">
+              Don't have an account?
+              <a id="open-register-mobile" href="#">Register</a>
+            </p>
+          </form>
+          <form class="form form-register">
+            <h2 class="form-title">Sign Up</h2>
+            <div class="form-social">
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <p>Facebook</p>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <p>Linkedin</p>
+              </a>
+            </div>
+            <p class="form-text">register your email</p>
+            <div class="form-input-container">
+              <input type="text" class="form-input" placeholder="Name" />
+              <input type="email" class="form-input" placeholder="Email" />
+              <input
+                type="password"
+                class="form-input"
+                placeholder="Password"
+              />
+            </div>
+            <button type="button" class="form-button">Register</button>
+            <p class="mobile-text">
+              Do you have an account?
+              <a id="open-login-mobile" href="#">Login</a>
+            </p>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <h2 class="form-title form-title-light">Do you have an account?</h2>
+            <p class="form-text">You need to login with your information</p>
+            <button class="form-button form-button-light" id="open-login">
+              Login
+            </button>
+          </div>
+          <div class="overlay">
+            <h2 class="form-title form-title-light">Registration!</h2>
+            <p class="form-text">It will be a pleasure to have you with us</p>
+            <button class="form-button form-button-light" id="open-register">
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

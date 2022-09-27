@@ -1,0 +1,14 @@
+.form-social{
+    display: flex;
+    gap: 24px;
+}
+
+.form-text {
+    display: flex;
+    color: var(--text-color-light);
+    font-size: 18px;
+}
+
+.form-link {
+    color: var(--text-color-light);
+}

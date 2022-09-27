@@ -1,0 +1,5 @@
+#open-register:hover, #open-login:hover {
+    background-color: var(--text-color-light);
+    border: none;
+    color: var(--primary-color);
+}
