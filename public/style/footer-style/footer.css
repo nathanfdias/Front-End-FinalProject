@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.footer {
+    background-color: rgb(32, 32, 32);
+    height: 240px;
+}
+
+.imagem-footer{
+    height: 50%;
+}
+
+.juncao-caixa {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa1 {
+    height: 70%;
+}
+
+.caixa2 {
+    height: 60px;
+}
+
+.caixa1-caixas{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.caixa1-caixas-descript a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.caixa1-caixas-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.caixa2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.caixa2 a {
+    color: white;
+}
+
+@media (max-width: 1400px) {
+    .caixa1-caixas{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    .caixa1-caixas{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .caixa1-caixas-icons{
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .caixa1-caixas-descript a{
+        font-size: 10px;
+    }
+
+    .caixa2 a{
+        font-size: 8px;
+    }
+
+    .imagem-footer{
+        height: 40px;
+    }
+}
+
+@media (max-width: 430px) {
+    .footer {
+        height: 500px;
+    }
+
+    .caixa1-caixas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .juncao-caixa{
+        align-items: center;
+    }
+}
