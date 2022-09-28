@@ -20,6 +20,10 @@
     border-bottom: 1px solid black;
 }
 
+#news-container-exeption{
+    border:none;
+}
+
 .news-content {
     display: flex;
     flex-direction: column;
