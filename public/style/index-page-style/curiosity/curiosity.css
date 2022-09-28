@@ -1,0 +1,53 @@
+#curiosity {
+border-top: 1px solid black;
+padding-top: 60px; 
+padding-bottom: 40px;   
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+width: 100%;
+}
+
+.curiosity-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.curiosity-title {
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+.curiosity-imgs-content{
+    width: 20%;
+}
+
+.curiosity-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.curiosity-text p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.curiosity-doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#curiosity-doctor-img{
+    width: 36%;
+}
