@@ -8,7 +8,6 @@ function verification() {
 
     if (username == 'admin@admin' && password == 'admin') {
         localStorage.setItem("acesso", true);
-        alert("Welcome");
         window.location.href = "./../views/index.html";
         // href="./../views/index.html"
     } else {
