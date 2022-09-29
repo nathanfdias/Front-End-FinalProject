@@ -1,0 +1,38 @@
+.main-film{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.img-main-film{
+    height: 300px;
+    width: 200px;
+}
+
+.main-filme-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 64%;
+}
+
+.main-filme-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-filme-content p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1100px) {
+    .main-filme-container{
+        display: wrap;
+        flex-wrap: wrap;
+    }
+}
