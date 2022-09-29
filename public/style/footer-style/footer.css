@@ -13,12 +13,12 @@ li{
 }
 
 .footer {
-    background-color: rgb(32, 32, 32);
+    background-color: #202020;
     height: 240px;
 }
 
 .imagem-footer{
-    height: 50%;
+    height: 65%;
 }
 
 .juncao-caixa {
@@ -47,7 +47,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgba(255, 255, 255, 0.801);
+    color: #ffffffcc;
 }
 
 .caixa1-caixas-icons{
@@ -55,7 +55,7 @@ li{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -68,7 +68,11 @@ li{
 }
 
 .caixa2 a {
-    color: white;
+    color: #ffffff;
+}
+
+.texto-descript:hover,.caixa2-texto:hover{
+    opacity: 0.5;
 }
 
 @media (max-width: 1400px) {
@@ -79,6 +83,7 @@ li{
         align-items: center;
         gap: 12px;
     }
+
 }
 
 @media (max-width: 850px) {
@@ -93,6 +98,7 @@ li{
     .caixa1-caixas-icons{
         font-size: 10px;
         gap: 5px;
+        flex-wrap: wrap;
     }
 
     .caixa1-caixas-descript a{
@@ -104,7 +110,7 @@ li{
     }
 
     .imagem-footer{
-        height: 40px;
+        height: 20%;
     }
 }
 
@@ -113,11 +119,14 @@ li{
         height: 500px;
     }
 
+    .imagem-footer{
+        height: 60px;
+        padding: 0px 0px 0px 30px;
+    }
+
     .caixa1-caixas{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 16px;
     }
 
