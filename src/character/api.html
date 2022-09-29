@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet"  href="../../public/style/api-style/api.css"/>
+    <link rel="stylesheet" href="../../public/style/index-page-style/navbar/navbar-bootstrap.css">
+    <link rel="stylesheet" href="../../public/style/index-page-style/main/main-banner.css">
+    <link rel="stylesheet" href="../../public/style/footer-style/footer.css">
+    <link
+    rel="shortcut icon"
+    type="..."
+    href="../../public/imgs/index-page-imgs/logotopsite.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/8194adac84.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../scripts/api/api.js" defer></script>
+    <title>Character Marvel</title>
+</head>
+<body> 
+    <header>
+        <nav id="navbar-menu" class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../../src/views/index.html"
+              ><img
+                class="logo-header"
+                src="./../../public/imgs/index-page-imgs/logo-marvel.png"
+                alt="Logo Marvel"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i id="menu-navbar" class="fa-solid fa-bars"></i
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    id="nav-link-home"
+                    href="../login-html/login.html"
+                    >Sing In | Join</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link-home" href="#curiosity"
+                    >Curiosity</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link-home" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link-home" href="../character/api.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link-home" href="../comics/comics.html">Comics</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nav-link-home"
+                    href="../movies/movies.html"
+                    >Movies</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="nav-link-home"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Plus+
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.disneyplus.com/pt-br"
+                        target="_blank"
+                        >Disney Plus</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://en.wikipedia.org/wiki/Marvel_Studios"
+                        target="_blank"
+                        >Marvel Studios</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.starplus.com/pt-br/home"
+                        target="_blank"
+                        >Star Plus</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  <i id="search-navbar" class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main >
+    
+        <banner id="main-banner-description">
+            <h3 class="main-banner-description" id="main-banner-description">
+                CHOOSE YOUR CHARACTER'S INITIAL FORM
+            </h3>
+        </banner>
+        <div class="main-bibliotec">
+            <div class="input">
+                <input type="text" id="pesquisa" placeholder="Character...">
+            </div>
+            <div class="choose-charecter">
+                <ul id="lista"></ul>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="juncao-caixa">
+          <div class="caixa1">
+            <div class="caixa1-caixas">
+              <img class="imagem-footer" src="../../public/imgs/footer-imgs/footer.png" alt="">
+              <div class="caixa1-caixas-descript">
+                <ul class="caixa1-caixas-descript">
+                  <li>
+                    <a class="texto-descript" href="">ADVERTISEMENT</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">DISNEY</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">MARVELHQ</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">DIGITAL.C</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="caixa1-caixas-descript">
+                <ul class="caixa1-caixas-descript">
+                  <li>
+                    <a class="texto-descript" href="">ABOUT</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">HELP/FAQS</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">CAREERS</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">INTERNSHIPS</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="caixa1-caixas-descript">
+                <ul class="caixa1-caixas-descript">
+                  <li>
+                    <a class="texto-descript" href="">INSIDER</a>
+                  </li>
+                  <li>
+                    <a class="texto-descript" href="">UNIQUE</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="caixa1-caixas-descript">
+                <div class="caixa1-caixas-icons">
+                  <ul class="caixa1-caixas-icons">
+                    <li>
+                      <a href="http://facebook.com/marvel"><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="http://twitter.com/marvel"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                    <li>
+                    <a href="http://instagram.com/marvel"><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.snapchat.com/add/marvelhq"><i class="fa-brands fa-square-snapchat"></i></a>
+                    </li>
+                    <li>
+                      <a href="http://youtube.com/marvel"><i class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                    <li>
+                     <a href="https://www.pinterest.com/marvelofficial"><i class="fa-brands fa-square-pinterest"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="caixa2">
+            <a class="caixa2-texto" href="https://disneytermsofuse.com/">Terms of Use</a>
+            <a class="caixa2-texto" href="https://privacy.thewaltdisneycompany.com/en/">Privacy Policy</a>
+            <a class="caixa2-texto" href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/">Children's Online Privacy</a>
+            <a class="caixa2-texto" href="https://www.marvel.com/corporate/license_tou">License Agreement</a>
+            <a class="caixa2-texto" href="https://www.youtube.com/channel/UCK2Yd_1anq2mMLIjkHiRREw">©2022 Marvel</a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
